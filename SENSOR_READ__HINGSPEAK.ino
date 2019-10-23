@@ -4,9 +4,9 @@
 
 #include <ThingSpeak.h>;
 
-const char* ssid = "ELEMENTZ"; //Your Network SSID
+const char* ssid = "ABCDE"; //Your Network SSID
 
-const char* password = "4716006699"; //Your Network Password
+const char* password = "******"; //Your Network Password
 
 int val;
 
@@ -15,9 +15,9 @@ int ALCOHOL_SENSOR = A0;
 
 WiFiClient client;
 
-unsigned long myChannelNumber = 889174; //Your Channel Number (Without Brackets)
+unsigned long myChannelNumber = *****; //Your Channel Number (Without Brackets)
 
-const char * myWriteAPIKey = "FS98RPKUE3KUHKVP"; //Your Write API Key
+const char * myWriteAPIKey = "*****************"; //Your Write API Key
 
 void setup()
 
